@@ -12,7 +12,7 @@ void zoro(){
     cin>>n;
     vector<int> arr(n);
     for(int i=0;i<n;i++) cin>>arr[i];
-    unordered_map<int,int> last;
+    map<int,int> last;
     int ans = 0;
     int l = 0;
     for(int r=0;r<n;r++){
@@ -32,3 +32,5 @@ signed main(){
     }
     return 0;
 }
+
+// use map instead of unordered_map
